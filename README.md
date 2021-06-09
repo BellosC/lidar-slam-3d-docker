@@ -15,7 +15,7 @@ docker run -it --rm --volume=$HOME/shared_dir:/root/shared_dir:rw --net=host cos
 
 > If you want at the end of the command you can add a <name_of_my_file> and a number for the IMU between 0 and 2, for example <0>. 
 
-> From default if you don't add something the program will give automatically a name to your file and also set the IMU parameter to zero (0).
+> From default if you don't add something the program will give automatically a name to your file and also set the IMU parameter to zero (0). Everything will be saved at the *shared_dir* folder that you created previously.
 
 > IMU: choose IMU information fusion strategy, there are 3 mode:
 
